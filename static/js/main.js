@@ -2,13 +2,26 @@
 
 // MASONRY
 
-var container = document.querySelector('#work-group1');
-var msnry = new Masonry( container, {
-  // options
-  columnWidth: 320,
-  itemSelector: '.item1',
-  isFitWidth: true,
-  gutter: 30
+// var container = document.querySelector('#work-group1');
+// var msnry = new Masonry( container, {
+//   // options
+//   columnWidth: 320,
+//   itemSelector: '.item1',
+//   isFitWidth: true,
+//   gutter: 30
+// });
+
+
+var $container = $('#work-group1');
+
+// initialize Masonry after all images have loaded  
+$container.imagesLoaded( function() {
+     $container.masonry({
+      columnWidth: 320,
+      itemSelector: '.item1',
+      isFitWidth: true,
+      gutter: 30
+     });
 });
 
 // WAYPOINTS
