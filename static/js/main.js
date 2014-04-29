@@ -11,17 +11,15 @@
 //   gutter: 30
 // });
 
-
-var $container = $('#work-group1');
-
+var $container = $('#work-group1').masonry();
 // initialize Masonry after all images have loaded  
 $container.imagesLoaded( function() {
-     $container.masonry({
-      columnWidth: 320,
-      itemSelector: '.item1',
-      isFitWidth: true,
-      gutter: 30
-     });
+  $container.masonry({
+    columnWidth: 320,
+    itemSelector: '.item1',
+    isFitWidth: true,
+    gutter: 30
+  });
 });
 
 // WAYPOINTS
