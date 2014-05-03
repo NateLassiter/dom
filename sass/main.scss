@@ -18,6 +18,15 @@ textarea {
     color: #222;
 }
 
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 body {
     font-size: 1.5em;
     line-height: 2;
@@ -148,6 +157,9 @@ header img {
 
 .logo {
     margin-bottom: 20px;
+    @include breakpoint(mobile){
+      width: 90%;
+    }
 }
 
 .arrow {
@@ -156,6 +168,10 @@ header img {
 
 .tagline {
   -webkit-animation-duration: 3.6s;
+  margin-bottom: 20px;
+    @include breakpoint(mobile){
+      width: 90%;
+    }
 }
 
 .mail {
@@ -183,6 +199,10 @@ header img {
     @include text-shadow(0 1px 2px #000);
     margin-top: 14px;
     opacity: 0;
+    @include breakpoint(mobile){
+      font-size: 24px;
+      width: 90%;
+    }
 }
 
 h2.quote-src {
