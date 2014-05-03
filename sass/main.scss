@@ -145,6 +145,14 @@ header {
     padding-bottom: 190px;
 }
 
+.header-bkg {
+    background: url(../img/bkg-header.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 #vid-bkg {
     height: 600px;
 }

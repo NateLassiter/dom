@@ -1,15 +1,10 @@
 
 
-// MASONRY
+if (Modernizr.touch) {
+    $('header').addClass('header-bkg');
+}
 
-// var container = document.querySelector('#work-group1');
-// var msnry = new Masonry( container, {
-//   // options
-//   columnWidth: 320,
-//   itemSelector: '.item1',
-//   isFitWidth: true,
-//   gutter: 30
-// });
+// MASONRY
 
 var $container = $('#work-group1').masonry();
 // initialize Masonry after all images have loaded  
