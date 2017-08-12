@@ -1,0 +1,194 @@
+/*
+ * Import Libs
+ */
+
+@import 'compass/utilities';
+@import 'bourbon/bourbon';
+
+
+/*
+ * Grid Settings
+ */
+
+$total-columns  : 12;
+$column-width   : 4.5em;           
+$gutter-width   : 1em;        
+$grid-padding   : $gutter-width; 
+
+/*
+ * Media Queries
+ */
+
+$full-layout: 65em 12;
+$tablet-layout: 50em 12 65em;
+$tablet-small-layout: 43em 12 50em;
+$mobile-layout: 12 43em;
+
+/*
+ * Sprite Settings (if you want to do spriting with compass)
+ */
+
+// $icon-sprite-dimensions: true;
+// $icon-spacing: 10px;
+// @import "icon/*.png";
+// @include all-icon-sprites;
+
+/*
+ * Colors
+ */
+
+$sky-blue: #9dd3df;
+$red: #991818;
+$gray: #ddd;
+$dark-gray: #424341;
+$off-white: #fffff7;
+
+/*
+ * Type
+ */
+
+$base-size: 16;
+
+
+/*
+ * Font Faces
+ */
+
+@include font-face(Nexa, 'nexa_light', normal);
+@include font-face(Nexa, 'nexa_bold', bold);
+
+/*
+ * Mixins
+ */
+
+@mixin font-size($sizeValue: $base-size) {
+	font-size: ($sizeValue * 1) + px;
+	font-size: ($sizeValue / $base-size) + rem;
+}
+
+@mixin opacity($trans: 0.5) {
+	filter: alpha(opacity=($trans * 100));
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=#{$trans * 100})";
+	-moz-opacity: $trans;
+	-khtml-opacity: $trans;
+	opacity: $trans;
+}
+
+@mixin border-radius($radius: 3px 3px 3px 3px) {
+	-moz-border-radius: $radius;
+  	-webkit-border-radius: $radius;
+  	border-radius: $radius;
+}
+
+@mixin button($base-color, $grayscale: false) {
+	$color:         hsl(0, 0, 100%);
+	$border:        adjust-color($base-color, $saturation:  9%,  $lightness: -14%);
+	$inset-shadow:  adjust-color($base-color, $saturation: -8%,  $lightness:  15%);
+	$stop-gradient: adjust-color($base-color, $saturation:  9%,  $lightness: -11%);
+	$text-shadow:   adjust-color($base-color, $saturation:  15%, $lightness: -18%);
+
+	@if lightness($base-color) > 70% {
+		$color:       hsl(0, 0, 20%);
+		$text-shadow: adjust-color($base-color, $saturation: 10%, $lightness: 4%);
+	}
+
+	@if $grayscale == true {
+		$border:        grayscale($border);
+		$inset-shadow:  grayscale($inset-shadow);
+		$stop-gradient: grayscale($stop-gradient);
+		$text-shadow:   grayscale($text-shadow);
+	}
+
+	border: 1px solid $border;
+	@include border-radius();
+	color: $color;
+	display: inline-block;
+	font-weight: bold;
+	background: $base-color;
+	padding: 12px 18px;
+	text-decoration: none;
+	-webkit-background-clip: padding-box;
+	text-transform: uppercase;
+	@include font-size(11);
+	font-family: 'Nexa', $helvetica;
+	letter-spacing: 1px;
+	line-height: 1;
+
+	&:hover:not(:disabled) {
+		$base-color-hover:    adjust-color($base-color, $saturation: -4%, $lightness: -5%);
+		$inset-shadow-hover:  adjust-color($base-color, $saturation: -7%, $lightness:  5%);
+		$stop-gradient-hover: adjust-color($base-color, $saturation:  8%, $lightness: -14%);
+
+		@if $grayscale == true {
+			$base-color-hover:    grayscale($base-color-hover);
+			$inset-shadow-hover:  grayscale($inset-shadow-hover);
+			$stop-gradient-hover: grayscale($stop-gradient-hover);
+		}
+
+		box-shadow: inset 0 1px 0 0 $inset-shadow-hover;
+		cursor: pointer;
+		
+	}
+
+	&:active:not(:disabled) {
+		$border-active:       adjust-color($base-color, $saturation: 9%, $lightness: -14%);
+		$inset-shadow-active: adjust-color($base-color, $saturation: 7%, $lightness: -17%);
+
+		@if $grayscale == true {
+			$border-active:       grayscale($border-active);
+			$inset-shadow-active: grayscale($inset-shadow-active);
+		}
+
+		border: 1px solid $border-active;
+		box-shadow: inset 0 0 8px 4px $inset-shadow-active, inset 0 0 8px 4px $inset-shadow-active, 0 1px 1px 0 #eee;
+	}
+}
+
+
+/*
+ * SCSS Examples
+ */
+
+// Using mixins
+
+button,
+.btn,
+[type=button] {
+
+	@include button($dark-gray);
+
+	&.sky-blue {
+		@include button($sky-blue);
+	}
+
+	&.red {
+		@include button($red);
+	}
+}
+
+
+// Using media queries (breakpoints)
+
+.foo {
+
+	width: 960px;
+	margin: auto 0;
+
+	@include at-breakpoint($mobile-layout) {
+		width: 100%;
+		margin: 0 !important;
+	}
+
+}
+
+// usign @extend to add classes youve already written to other classes 
+// (check out what it actually outputs in the css, pretty badass)
+
+.black-thing {
+	background: #000;
+}
+
+.black-thing-with-border {
+	@extend .black-thing;
+	border: 1px solid #000;
+}
