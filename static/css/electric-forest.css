@@ -1,0 +1,2141 @@
+/*
+ * HTML5 Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+/* line 40, ../sass/electric-forest.scss */
+html,
+button,
+input,
+select,
+textarea {
+  color: #222;
+}
+
+/* line 44, ../sass/electric-forest.scss */
+body {
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection declarations have to be separate.
+ * Customize the background color to match your design.
+ */
+/* line 55, ../sass/electric-forest.scss */
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/* line 60, ../sass/electric-forest.scss */
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+/* line 69, ../sass/electric-forest.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+/* line 82, ../sass/electric-forest.scss */
+img {
+  vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+/* line 90, ../sass/electric-forest.scss */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+/* line 100, ../sass/electric-forest.scss */
+textarea {
+  resize: vertical;
+}
+
+/* ==========================================================================
+   Chrome Frame prompt
+   ========================================================================== */
+/* line 108, ../sass/electric-forest.scss */
+.chromeframe {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* line 123, ../sass/electric-forest.scss */
+#loader {
+  background: #000;
+  background: rgba(0, 0, 0, 0.9);
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  opacity: .9;
+}
+
+/* line 132, ../sass/electric-forest.scss */
+#loader h1 {
+  color: #fff;
+  font-family: 'Droid Serif', Serif;
+  font-weight: normal;
+}
+
+/* line 137, ../sass/electric-forest.scss */
+#loader h2 {
+  color: #fff;
+  font-family: 'Droid Serif', Serif;
+  font-weight: bold;
+}
+
+/* line 143, ../sass/electric-forest.scss */
+#loader small {
+  display: block;
+  margin-bottom: 1em;
+  color: #fff;
+  font-family: 'Droid Serif', Serif;
+  font-size: 24px;
+}
+
+/* line 151, ../sass/electric-forest.scss */
+#loader p {
+  color: #fff;
+  font-size: 18px;
+}
+
+/* line 156, ../sass/electric-forest.scss */
+#loader .loader-content {
+  padding-top: 140px;
+}
+
+@-webkit-keyframes rotate {
+  /* line 161, ../sass/electric-forest.scss */
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  /* line 164, ../sass/electric-forest.scss */
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes rotate {
+  /* line 170, ../sass/electric-forest.scss */
+  from {
+    -moz-transform: rotate(0deg);
+  }
+
+  /* line 173, ../sass/electric-forest.scss */
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate {
+  /* line 179, ../sass/electric-forest.scss */
+  from {
+    transform: rotate(0deg);
+  }
+
+  /* line 182, ../sass/electric-forest.scss */
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* line 187, ../sass/electric-forest.scss */
+#loader .loading-img {
+  -webkit-animation-name: rotate;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: rotate;
+  -moz-animation-duration: 0.5s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  animation-name: rotate;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+/* line 206, ../sass/electric-forest.scss */
+.header {
+  width: 100%;
+  height: 170px;
+  opacity: .8;
+  border-bottom: 1px solid #fff;
+  background-color: #000;
+  position: absolute;
+}
+@media (max-width: 500px) {
+  /* line 206, ../sass/electric-forest.scss */
+  .header {
+    display: none !important;
+  }
+}
+
+/* line 218, ../sass/electric-forest.scss */
+.nav {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding-top: 5px;
+}
+
+/* line 224, ../sass/electric-forest.scss */
+.nav li {
+  float: left;
+  list-style: none;
+  text-align: center;
+}
+
+/* line 230, ../sass/electric-forest.scss */
+.header p {
+  color: #fff;
+  margin-top: 4px;
+  font-weight: bold;
+}
+
+/* line 236, ../sass/electric-forest.scss */
+.header .tagline {
+  font-family: 'Droid Serif', Serif;
+  margin-top: 0px;
+  font-weight: normal;
+  font-size: 18px;
+  color: #fff;
+}
+
+/* line 244, ../sass/electric-forest.scss */
+.header .logo {
+  padding-top: 18px;
+}
+
+/* line 248, ../sass/electric-forest.scss */
+.nav img {
+  box-shadow: none;
+  -moz-transition: all .2s linear;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+}
+
+/* line 255, ../sass/electric-forest.scss */
+.header a img:hover {
+  opacity: 1;
+  -ms-transform: rotate(15deg) scale(1.1);
+  -moz-transform: rotate(15deg) scale(1.1);
+  -webkit-transform: rotate(15deg) scale(1.1);
+  -o-transform: rotate(15deg) scale(1.1);
+  transform: rotate(15deg) scale(1.1);
+}
+
+/* line 264, ../sass/electric-forest.scss */
+.header a, .header-small a {
+  text-decoration: none;
+  cursor: hand;
+  cursor: pointer;
+}
+
+/* line 273, ../sass/electric-forest.scss */
+.header-small {
+  width: 100%;
+  height: 50px;
+  opacity: .7;
+  border-bottom: 1px solid #333;
+  background-color: #000;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  display: none;
+}
+@media (max-width: 500px) {
+  /* line 273, ../sass/electric-forest.scss */
+  .header-small {
+    display: block;
+  }
+}
+
+/* line 288, ../sass/electric-forest.scss */
+.header-small .nav-collapse {
+  padding-top: 0;
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+/* line 294, ../sass/electric-forest.scss */
+.header-small img {
+  width: 30px;
+  -moz-transition: all .2s linear;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+}
+
+/* line 301, ../sass/electric-forest.scss */
+.header-small img.logo {
+  width: 126px;
+  position: absolute;
+  top: 7px;
+  left: 42%;
+}
+
+/* line 308, ../sass/electric-forest.scss */
+.header-small p {
+  color: #fff;
+  margin-top: 4px;
+  font-weight: bold;
+  display: inline;
+  padding-left: 6px;
+}
+
+/* line 316, ../sass/electric-forest.scss */
+.header-small ul.row-fluid {
+  margin-top: 12px;
+}
+
+/* line 320, ../sass/electric-forest.scss */
+.menu-btn {
+  display: none;
+}
+
+/* line 324, ../sass/electric-forest.scss */
+.header-small a img:hover {
+  opacity: 1;
+  -ms-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/* line 336, ../sass/electric-forest.scss */
+.modal {
+  text-align: center;
+}
+
+/* line 340, ../sass/electric-forest.scss */
+.modal h3 {
+  text-shadow: none;
+  font-weight: bold;
+  font-style: normal;
+  font-weight: bold;
+  color: #333;
+}
+
+/* line 348, ../sass/electric-forest.scss */
+.modal .addthis_toolbox {
+  margin-left: 25%;
+}
+
+/* line 352, ../sass/electric-forest.scss */
+.modal #mc_embed_signup input.email {
+  margin: 0 auto;
+}
+
+/* line 356, ../sass/electric-forest.scss */
+.modal #mc_embed_signup input.button {
+  margin: 10px auto 0px auto;
+  width: 59%;
+}
+
+/* line 361, ../sass/electric-forest.scss */
+.modal h2 {
+  font-weight: bold;
+  margin-bottom: 0px;
+  font-size: 1.3em;
+}
+
+/* line 367, ../sass/electric-forest.scss */
+.modal-header {
+  background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 20%, rgba(255, 255, 255, 0.1) 100%);
+  background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 20%, rgba(255, 255, 255, 0.1) 100%);
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 20%, rgba(255, 255, 255, 0.1) 100%);
+  background-image: linear-gradient(bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 20%, rgba(255, 255, 255, 0.1) 100%);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+/* line 377, ../sass/electric-forest.scss */
+.modal-body {
+  padding: 10px 30px 10px 30px;
+}
+
+/* line 382, ../sass/electric-forest.scss */
+#issues-modal img {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  -webkit-box-shadow: 0 2px 6px black;
+  -moz-box-shadow: 0 2px 6px black;
+  box-shadow: 0 2px 6px black;
+}
+
+/* line 389, ../sass/electric-forest.scss */
+#issues-modal .modal-body {
+  padding: 0;
+  max-height: none;
+}
+
+/* line 394, ../sass/electric-forest.scss */
+#issues-modal .modal-body ul {
+  padding: 0 5px;
+}
+
+@-webkit-keyframes arrow {
+  /* line 404, ../sass/electric-forest.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: scaleY(1.5);
+  }
+
+  /* line 408, ../sass/electric-forest.scss */
+  50% {
+    opacity: .8;
+    -webkit-transform: scaleY(0.9);
+  }
+
+  /* line 412, ../sass/electric-forest.scss */
+  100% {
+    opacity: 0;
+    -webkit-transform: scaleY(0.9);
+  }
+}
+
+@-moz-keyframes arrow {
+  /* line 419, ../sass/electric-forest.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: scaleY(1.5);
+  }
+
+  /* line 423, ../sass/electric-forest.scss */
+  50% {
+    opacity: .8;
+    -webkit-transform: scaleY(0.9);
+  }
+
+  /* line 427, ../sass/electric-forest.scss */
+  100% {
+    opacity: 0;
+    -webkit-transform: scaleY(0.9);
+  }
+}
+
+@keyframes arrow {
+  /* line 434, ../sass/electric-forest.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: scaleY(1.5);
+  }
+
+  /* line 438, ../sass/electric-forest.scss */
+  50% {
+    opacity: .8;
+    -webkit-transform: scaleY(0.9);
+  }
+
+  /* line 442, ../sass/electric-forest.scss */
+  100% {
+    opacity: 0;
+    -webkit-transform: scaleY(0.9);
+  }
+}
+
+/* line 448, ../sass/electric-forest.scss */
+.scroll {
+  margin-top: -30px;
+  opacity: 0;
+  -webkit-animation-name: arrow;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 3s;
+  -webkit-animation-iteration-count: 10;
+  -webkit-animation-direction: normal;
+  -moz-animation-name: arrow;
+  -moz-animation-duration: 2s;
+  -moz-animation-timing-function: ease-in-out;
+  -moz-animation-delay: 3s;
+  -moz-animation-iteration-count: 10;
+  -moz-animation-direction: normal;
+  animation-name: arrow;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 3s;
+  animation-iteration-count: 10;
+  animation-direction: normal;
+}
+
+/* line 476, ../sass/electric-forest.scss */
+#subscribe-popup {
+  width: 340px;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+  opacity: 0.9;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.55);
+  -moz-box-shadow: 0 0 12px rgba(0, 0, 0, 0.55);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.55);
+  font-family: "Droid Serif", serif;
+  text-align: center;
+  position: fixed;
+  top: 150px;
+  right: 60px;
+  z-index: 99;
+  display: none;
+}
+@media (max-width: 500px) {
+  /* line 476, ../sass/electric-forest.scss */
+  #subscribe-popup {
+    width: 96%;
+    top: 55px;
+    right: 2px;
+  }
+}
+
+/* line 497, ../sass/electric-forest.scss */
+.popup-header {
+  width: 100%;
+  height: 50px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  background-color: #fff;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.55);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.55);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.55);
+  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, rgba(0, 0, 0, 0.15)), color-stop(100%, rgba(0, 0, 0, 0)));
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 100%);
+  background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 100%);
+  background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 100%);
+  background-image: linear-gradient(bottom, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+/* line 507, ../sass/electric-forest.scss */
+.popup-header h3 {
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 0 1px 1px white;
+  line-height: 50px;
+  font-style: normal;
+  margin: 0;
+}
+@media (max-width: 500px) {
+  /* line 507, ../sass/electric-forest.scss */
+  .popup-header h3 {
+    font-size: 18px;
+  }
+}
+
+/* line 520, ../sass/electric-forest.scss */
+.popup-body img {
+  width: auto;
+  height: 120px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  background-color: #fff;
+  margin-top: 10px;
+  margin-bottom: -10px;
+}
+@media (max-width: 500px) {
+  /* line 520, ../sass/electric-forest.scss */
+  .popup-body img {
+    height: 90px;
+  }
+}
+
+/* line 534, ../sass/electric-forest.scss */
+.popup-body .next-issue {
+  width: 280px;
+  margin: 0 auto;
+  border-bottom: 1px solid #ccc;
+}
+
+/* line 540, ../sass/electric-forest.scss */
+.popup-body p {
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+}
+@media (max-width: 500px) {
+  /* line 540, ../sass/electric-forest.scss */
+  .popup-body p {
+    margin-top: 0;
+  }
+}
+
+/* line 549, ../sass/electric-forest.scss */
+.signup p {
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+/* line 554, ../sass/electric-forest.scss */
+.popup-body .signup .fb-like {
+  display: block;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+@media (max-width: 500px) {
+  /* line 554, ../sass/electric-forest.scss */
+  .popup-body .signup .fb-like {
+    float: left;
+    margin-left: 20%;
+    margin-top: 1%;
+  }
+}
+
+/* line 566, ../sass/electric-forest.scss */
+.signup #mc_embed_signup input.email {
+  margin: 0 auto;
+}
+
+/* line 570, ../sass/electric-forest.scss */
+.signup #mc_embed_signup input.button {
+  margin: 10px auto 0px auto;
+  width: 130px;
+}
+@media (max-width: 500px) {
+  /* line 570, ../sass/electric-forest.scss */
+  .signup #mc_embed_signup input.button {
+    margin: 0 auto;
+  }
+}
+
+/* line 579, ../sass/electric-forest.scss */
+.signup div.span6 {
+  border-left: 1px solid #ccc;
+}
+
+/* line 583, ../sass/electric-forest.scss */
+.popup-header #close-btn img {
+  margin-top: -34px;
+  margin-right: 12px;
+}
+
+/* line 593, ../sass/electric-forest.scss */
+#myCarousel .active {
+  background: none;
+}
+
+/* line 597, ../sass/electric-forest.scss */
+#myCarousel .carousel-inner img {
+  width: 100%;
+  box-shadow: none;
+}
+
+/* line 602, ../sass/electric-forest.scss */
+#myCarousel .carousel-indicators {
+  right: 50%;
+}
+
+/* line 606, ../sass/electric-forest.scss */
+#myCarousel .carousel-indicators li {
+  background-color: #fff;
+}
+
+/* line 610, ../sass/electric-forest.scss */
+#myCarousel .carousel-indicators li.active {
+  background-color: #990202;
+}
+
+/* line 614, ../sass/electric-forest.scss */
+#myCarousel .carousel-caption {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 15px;
+  background: #333333;
+  background: 0px 2px 3px rgba(0, 0, 0, 0.7);
+}
+
+/* line 624, ../sass/electric-forest.scss */
+#myCarousel h1 {
+  position: absolute;
+  top: 0px;
+  z-index: 9;
+  color: white;
+  font-size: 4em;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-shadow: 0px 2px 2px black;
+}
+@media (max-width: 500px) {
+  /* line 624, ../sass/electric-forest.scss */
+  #myCarousel h1 {
+    font-size: 3em;
+  }
+}
+
+/* line 640, ../sass/electric-forest.scss */
+#myCarousel .carousel-caption h3 {
+  text-align: left;
+  margin-left: 10px;
+}
+
+/*TABLE OF CONTENTS/ SIDE NAV */
+/* line 649, ../sass/electric-forest.scss */
+#side-nav {
+  position: fixed;
+  width: 46px;
+  top: 110px;
+  right: 0px;
+  z-index: 8;
+  font-family: 'open sans', sans-serif;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.7);
+  -webkit-border-radius: 8px 0 0 8px;
+  -moz-border-radius: 8px 0 0 8px;
+  border-radius: 8px 0 0 8px;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  display: none;
+}
+
+/* line 668, ../sass/electric-forest.scss */
+#side-nav span.nav-num {
+  margin-left: 16px;
+  margin-right: 16px;
+  font-size: 1.5em;
+  display: block;
+}
+
+/* line 675, ../sass/electric-forest.scss */
+#side-nav ul {
+  margin: 0;
+}
+
+/* line 679, ../sass/electric-forest.scss */
+#side-nav li {
+  list-style: none;
+  color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #222;
+  position: relative;
+}
+
+/* line 688, ../sass/electric-forest.scss */
+#side-nav li:nth-child(6) {
+  border-bottom: none;
+}
+
+/* line 692, ../sass/electric-forest.scss */
+#side-nav li a {
+  color: #fff;
+}
+
+/* line 696, ../sass/electric-forest.scss */
+#side-nav .side-nav-details {
+  position: absolute;
+  right: 64px;
+  top: 0;
+  width: 280px;
+  min-height: 100px;
+  background: rgba(0, 0, 0, 0.7);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+  display: none;
+}
+
+/* line 707, ../sass/electric-forest.scss */
+#side-nav .side-nav-details img {
+  width: 100px;
+  height: 100px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  margin: 10px;
+  float: left;
+}
+
+/* line 715, ../sass/electric-forest.scss */
+#side-nav .side-nav-details p {
+  color: #fff;
+  font-weight: bold;
+  margin-top: 40px;
+  text-align: left;
+}
+
+/* line 722, ../sass/electric-forest.scss */
+#side-nav a:visited {
+  color: white;
+}
+
+/* line 726, ../sass/electric-forest.scss */
+#side-nav a:hover {
+  color: #06f30f;
+  background: none;
+}
+
+/* line 731, ../sass/electric-forest.scss */
+.active {
+  background: rgba(2, 156, 8, 0.7);
+  font-weight: bold;
+  text-shadow: 0px 1px 0px black;
+}
+
+/*TYPOGRAPHY*/
+/* line 741, ../sass/electric-forest.scss */
+.otrlogo {
+  margin-top: 2.5em;
+}
+
+/* line 745, ../sass/electric-forest.scss */
+#end .otrlogo {
+  margin-top: 3em;
+  margin-bottom: 0;
+}
+
+/* line 750, ../sass/electric-forest.scss */
+#end .tagline {
+  font-family: 'Droid Serif', Serif;
+  margin-top: 10px;
+  font-weight: normal;
+  font-size: 2.6em;
+  color: #fff;
+}
+@media (max-width: 500px) {
+  /* line 750, ../sass/electric-forest.scss */
+  #end .tagline {
+    font-size: 2em;
+  }
+}
+
+/* line 761, ../sass/electric-forest.scss */
+.issue-logo {
+  margin-top: 4em;
+}
+
+/* line 765, ../sass/electric-forest.scss */
+.fade-in-logo {
+  -webkit-animation-name: fade-in-logo;
+  -webkit-animation-timing-function: ease-in;
+  -webkit-animation-duration: 2s;
+  -moz-animation-name: fade-in-logo;
+  -moz-animation-timing-function: ease-in;
+  -moz-animation-duration: 2s;
+  animation-name: fade-in-logo;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fade-in-logo {
+  /* line 778, ../sass/electric-forest.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 781, ../sass/electric-forest.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fade-in-logo {
+  /* line 787, ../sass/electric-forest.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 790, ../sass/electric-forest.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+/* line 796, ../sass/electric-forest.scss */
+keyframes fade-in-logo 0%  {
+  opacity: 0;
+}
+/* line 799, ../sass/electric-forest.scss */
+keyframes fade-in-logo 100%  {
+  opacity: 1;
+}
+
+/* line 804, ../sass/electric-forest.scss */
+div.fade-in-featuring {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* line 809, ../sass/electric-forest.scss */
+.fade-in-featuring {
+  -webkit-animation-name: fade-in-featuring;
+  -webkit-animation-timing-function: ease-in;
+  -webkit-animation-duration: 3s;
+  -moz-animation-name: fade-in-featuring;
+  -moz-animation-timing-function: ease-in;
+  -moz-animation-duration: 3s;
+  animation-name: fade-in-featuring;
+  animation-timing-function: ease-in;
+  animation-duration: 3s;
+}
+
+@-webkit-keyframes fade-in-featuring {
+  /* line 822, ../sass/electric-forest.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 826, ../sass/electric-forest.scss */
+  50% {
+    opacity: 0;
+  }
+
+  /* line 830, ../sass/electric-forest.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fade-in-featuring {
+  /* line 836, ../sass/electric-forest.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 840, ../sass/electric-forest.scss */
+  50% {
+    opacity: 0;
+  }
+
+  /* line 844, ../sass/electric-forest.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+/* line 850, ../sass/electric-forest.scss */
+keyframes fade-in-featuring 0%  {
+  opacity: 0;
+}
+/* line 854, ../sass/electric-forest.scss */
+keyframes fade-in-featuring 50%  {
+  opacity: 0;
+}
+/* line 858, ../sass/electric-forest.scss */
+keyframes fade-in-featuring 100%  {
+  opacity: 1;
+}
+
+/* line 864, ../sass/electric-forest.scss */
+.featuring {
+  margin-top: 11em;
+}
+
+/* line 869, ../sass/electric-forest.scss */
+h1 {
+  font-family: 'Droid Serif', Serif;
+  font-size: 5em;
+  font-style: normal;
+  padding-top: 50px;
+  color: white;
+  text-shadow: 3px 3px 10px #000000;
+  line-height: 1.2em;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+@media (max-width: 500px) {
+  /* line 869, ../sass/electric-forest.scss */
+  h1 {
+    font-size: 2.5em;
+  }
+}
+
+/* line 884, ../sass/electric-forest.scss */
+h1.cover-title {
+  font-family: 'Droid Serif', Serif;
+  font-size: 6em;
+  padding: 0px;
+  margin: .5em 0 .5em 0;
+  color: white;
+  text-shadow: 3px 3px 10px #000000;
+  line-height: 1em;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+@media (max-width: 500px) {
+  /* line 884, ../sass/electric-forest.scss */
+  h1.cover-title {
+    font-size: 3em;
+    margin: 0;
+  }
+}
+
+/* line 900, ../sass/electric-forest.scss */
+h2.cover-title {
+  font-family: 'Droid Serif', Serif;
+  font-size: 3em;
+  font-style: italic;
+  padding: 0px;
+  margin: 40px 0 30px 0;
+  color: white;
+  text-shadow: 3px 3px 10px #000000;
+  line-height: 1em;
+}
+@media (max-width: 500px) {
+  /* line 900, ../sass/electric-forest.scss */
+  h2.cover-title {
+    font-size: 2em;
+    line-height: 1.5em;
+  }
+}
+
+/* line 915, ../sass/electric-forest.scss */
+.artist-logo {
+  text-shadow: 3px 3px 10px #000000;
+  transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -webkit-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+}
+
+/* line 924, ../sass/electric-forest.scss */
+h2 {
+  color: #333;
+  font-family: 'Droid Serif', Serif;
+  font-weight: normal;
+  text-shadow: 0px 2px 2px white;
+  line-height: 1.8em;
+  margin-top: 0px;
+}
+@media (max-width: 500px) {
+  /* line 924, ../sass/electric-forest.scss */
+  h2 {
+    font-size: 1.2em;
+    margin-left: 10px;
+  }
+}
+
+/* line 937, ../sass/electric-forest.scss */
+h3 {
+  font-family: 'Droid Serif', Serif;
+  font-size: 1.5em;
+  color: white;
+  text-shadow: 3px 3px 6px #000000;
+  font-style: italic;
+}
+
+/* line 945, ../sass/electric-forest.scss */
+h4 {
+  font-weight: normal;
+  font-style: italic;
+  font-family: 'Droid Serif', Serif;
+  text-indent: -9999px;
+  margin: 0;
+}
+
+/* line 953, ../sass/electric-forest.scss */
+#album h1 {
+  text-shadow: 4px 4px 14px #000000;
+}
+
+/* line 957, ../sass/electric-forest.scss */
+h5 {
+  font-weight: normal;
+  font-style: italic;
+  font-family: 'Droid Serif', Serif;
+  font-size: 1em;
+}
+
+/* line 964, ../sass/electric-forest.scss */
+.from {
+  font-family: 'droid serif', serif;
+  font-style: italic;
+  font-size: 12px;
+  margin-right: 6px;
+  color: #666;
+}
+@media (max-width: 500px) {
+  /* line 964, ../sass/electric-forest.scss */
+  .from {
+    margin-left: 10px;
+  }
+}
+
+/*BACKGROUND*/
+/* line 979, ../sass/electric-forest.scss */
+#ef-cover {
+  background: rgba(0, 0, 0, 0) url(/offtherecord/electric-forest/img/ef-cover.jpg) no-repeat;
+  background-size: cover;
+  padding-top: 180px;
+  height: 1100px;
+  text-align: center;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+@media (max-width: 500px) {
+  /* line 979, ../sass/electric-forest.scss */
+  #ef-cover {
+    background-attachment: scroll;
+    height: 500px;
+    padding-top: 80px;
+  }
+}
+
+/* line 995, ../sass/electric-forest.scss */
+#section1-cover {
+  background: rgba(0, 0, 0, 0) url(/offtherecord/electric-forest/img/section1-cover.jpg) no-repeat;
+  background-size: cover;
+  padding-top: 180px;
+  height: 1100px;
+  text-align: center;
+  background-attachment: fixed;
+  overflow: hidden;
+  background-position: center center;
+}
+@media (max-width: 500px) {
+  /* line 995, ../sass/electric-forest.scss */
+  #section1-cover {
+    background-attachment: scroll;
+    height: 500px;
+    padding-top: 80px;
+  }
+}
+
+/* line 1011, ../sass/electric-forest.scss */
+#section2-cover {
+  background: rgba(0, 0, 0, 0) url(/offtherecord/electric-forest/img/section2-cover.jpg) no-repeat;
+  background-size: cover;
+  padding-top: 180px;
+  height: 1100px;
+  text-align: center;
+  background-attachment: fixed;
+  overflow: hidden;
+  margin-top: 4em;
+  background-position: top center;
+}
+@media (max-width: 500px) {
+  /* line 1011, ../sass/electric-forest.scss */
+  #section2-cover {
+    background-attachment: scroll;
+    height: 500px;
+    padding-top: 80px;
+  }
+}
+
+/* line 1028, ../sass/electric-forest.scss */
+#section3-cover {
+  background: rgba(0, 0, 0, 0) url(/offtherecord/electric-forest/img/section3-cover.jpg) no-repeat;
+  background-size: cover;
+  padding-top: 180px;
+  height: 1100px;
+  text-align: center;
+  background-attachment: fixed;
+  overflow: hidden;
+  margin-top: 4em;
+  background-position: center center;
+}
+@media (max-width: 500px) {
+  /* line 1028, ../sass/electric-forest.scss */
+  #section3-cover {
+    background-attachment: scroll;
+    height: 500px;
+    padding-top: 80px;
+  }
+}
+
+/* line 1045, ../sass/electric-forest.scss */
+#section4-cover {
+  background: rgba(0, 0, 0, 0) url(/offtherecord/electric-forest/img/section4-cover.jpg) no-repeat;
+  background-size: cover;
+  padding-top: 180px;
+  height: 500px;
+  text-align: center;
+  background-attachment: fixed;
+  overflow: hidden;
+  margin-top: 4em;
+  background-position: top center;
+}
+@media (max-width: 500px) {
+  /* line 1045, ../sass/electric-forest.scss */
+  #section4-cover {
+    background-attachment: scroll;
+    height: 500px;
+    padding-top: 80px;
+  }
+}
+
+/* line 1062, ../sass/electric-forest.scss */
+#section5-cover {
+  background: rgba(0, 0, 0, 0) url(/offtherecord/electric-forest/img/section5-cover.jpg) no-repeat;
+  background-size: cover;
+  padding-top: 180px;
+  height: 1100px;
+  text-align: center;
+  background-attachment: fixed;
+  overflow: hidden;
+  margin-top: 4em;
+}
+@media (max-width: 500px) {
+  /* line 1062, ../sass/electric-forest.scss */
+  #section5-cover {
+    background-attachment: scroll;
+    height: 500px;
+    padding-top: 80px;
+  }
+}
+
+/* line 1078, ../sass/electric-forest.scss */
+#section6-cover {
+  background: rgba(0, 0, 0, 0) url(/offtherecord/electric-forest/img/section6-cover.jpg) no-repeat;
+  background-size: cover;
+  padding-top: 180px;
+  height: 1100px;
+  text-align: center;
+  background-attachment: fixed;
+  overflow: hidden;
+  margin-top: 4em;
+}
+@media (max-width: 500px) {
+  /* line 1078, ../sass/electric-forest.scss */
+  #section6-cover {
+    background-attachment: scroll;
+    height: 500px;
+    padding-top: 80px;
+  }
+}
+
+/* line 1094, ../sass/electric-forest.scss */
+#end {
+  background: rgba(0, 0, 0, 0) url(../../static/img/record-bkg.jpg) no-repeat;
+  background-size: cover;
+  height: 1240px;
+  background-attachment: fixed;
+  overflow: hidden;
+  margin-top: 5em;
+  text-align: center;
+}
+@media (max-width: 500px) {
+  /* line 1094, ../sass/electric-forest.scss */
+  #end {
+    background-attachment: scroll;
+    height: 1630px;
+    padding-top: 80px;
+  }
+}
+
+@media (max-width: 500px) {
+  /* line 1113, ../sass/electric-forest.scss */
+  body {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+/* line 1124, ../sass/electric-forest.scss */
+#section1-content {
+  position: relative;
+}
+
+/*CONTENT*/
+/* line 1132, ../sass/electric-forest.scss */
+.container-fluid {
+  padding: 0;
+}
+
+/* line 1136, ../sass/electric-forest.scss */
+ul {
+  padding: 0px;
+}
+
+/* line 1140, ../sass/electric-forest.scss */
+.thumbnails {
+  margin-top: 5em;
+  opacity: 0;
+  transition: opacity 1s linear;
+  -moz-transition: opacity 1s linear;
+  -webkit-transition: opacity 1s linear;
+}
+
+/* line 1152, ../sass/electric-forest.scss */
+.img-caption {
+  margin-top: 10px;
+  max-width: 612px;
+}
+
+/* line 1158, ../sass/electric-forest.scss */
+.artist-thumb {
+  width: 60px;
+  height: 60px;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  -ms-border-radius: 60px;
+  -o-border-radius: 60px;
+  border-radius: 60px;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  background-color: #fff;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
+  float: left;
+  margin-right: 10px;
+}
+
+/* line 1169, ../sass/electric-forest.scss */
+.img-caption h5 {
+  color: #999;
+  display: inline;
+}
+
+/* line 1174, ../sass/electric-forest.scss */
+.img-caption h5.no-caption {
+  line-height: 60px;
+}
+
+/* line 1178, ../sass/electric-forest.scss */
+.img-caption p {
+  float: left;
+  font-family: 'Droid Serif', Serif;
+  line-height: 1.8;
+}
+
+/* line 1184, ../sass/electric-forest.scss */
+.img-caption > p {
+  margin-left: 10px;
+  margin-top: 0;
+}
+
+@media (max-width: 500px) {
+  /* line 1189, ../sass/electric-forest.scss */
+  div.img-caption .span2 {
+    margin-bottom: -25px;
+  }
+}
+
+/* line 1195, ../sass/electric-forest.scss */
+.float-right {
+  float: right;
+}
+
+/* line 1199, ../sass/electric-forest.scss */
+.row-fluid ul.two-columns {
+  margin: 5em auto 0 auto;
+  max-width: 1260px;
+}
+
+/* line 1204, ../sass/electric-forest.scss */
+.row-fluid {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* line 1209, ../sass/electric-forest.scss */
+li.thumbnails {
+  margin-top: 0;
+}
+
+/* line 1213, ../sass/electric-forest.scss */
+.quote {
+  margin-top: 4em;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 860px;
+  opacity: 0;
+  transition: opacity 1s linear;
+  -moz-transition: opacity 1s linear;
+  -webkit-transition: opacity 1s linear;
+}
+
+/* line 1224, ../sass/electric-forest.scss */
+li.quote {
+  margin-top: 0px;
+}
+
+/* line 1228, ../sass/electric-forest.scss */
+.quote-pad-left {
+  padding-left: 20px;
+}
+
+/* line 1232, ../sass/electric-forest.scss */
+.pics {
+  opacity: 1;
+}
+
+/* line 1236, ../sass/electric-forest.scss */
+li img {
+  -moz-box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.4);
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 1245, ../sass/electric-forest.scss */
+.no-shadow {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* line 1251, ../sass/electric-forest.scss */
+.bio-pics {
+  display: block;
+  margin: 0 auto;
+  margin-top: 4em;
+  -moz-box-shadow: 0px 3px 16px 2px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0px 3px 16px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 3px 16px 2px rgba(0, 0, 0, 0.4);
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 1263, ../sass/electric-forest.scss */
+.maglogo {
+  box-shadow: none;
+  opacity: .7;
+  transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  -webkit-transition: all .2s linear;
+}
+
+/* line 1271, ../sass/electric-forest.scss */
+.maglogo:hover {
+  transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  /* IE 9 */
+  -moz-transform: scale(1.15);
+  /* Firefox */
+  -webkit-transform: scale(1.15);
+  /* Safari and Chrome */
+  -o-transform: scale(1.15);
+  /* Opera */
+  opacity: 1;
+}
+
+/* line 1280, ../sass/electric-forest.scss */
+.maglogo.longlogo {
+  height: 25px;
+}
+
+/* line 1284, ../sass/electric-forest.scss */
+.maglogo.highlogo {
+  height: 50px;
+}
+
+/* line 1288, ../sass/electric-forest.scss */
+.fan-thumbnail {
+  height: 50px;
+  margin-right: 5px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+
+/* line 1294, ../sass/electric-forest.scss */
+#fanList, #characterList {
+  margin: 0 auto;
+}
+
+/* line 1300, ../sass/electric-forest.scss */
+#section6-content li img {
+  width: 100%;
+}
+
+/* line 1304, ../sass/electric-forest.scss */
+#section6-content .thumbnails img {
+  width: 100%;
+  display: block;
+  margin-bottom: 1em;
+}
+
+/*VIDEO PLAYER*/
+/* line 1315, ../sass/electric-forest.scss */
+.player-main {
+  height: 41px;
+  position: fixed;
+  top: 50px;
+  right: 0;
+  z-index: 8;
+  font-family: 'open sans', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  padding: 5px 10px 0px 10px;
+  background: black;
+  opacity: 0.7;
+  text-shadow: 0px -1px 0px black;
+  -webkit-border-radius: 0 0 0 8px;
+  -moz-border-radius: 0 0 0 8px;
+  border-radius: 0 0 0 8px;
+}
+
+/* line 1336, ../sass/electric-forest.scss */
+.video-message {
+  float: left;
+  margin-top: 7px;
+  margin-left: 10px;
+  text-shadow: 0px 1px 0px black;
+  font-weight: bold;
+}
+
+/* line 1345, ../sass/electric-forest.scss */
+span.now-playing {
+  margin-left: 10px;
+  font-size: 11px;
+  font-style: italic;
+  text-shadow: 0px 1px 0px black;
+  line-height: 39px;
+}
+
+/* line 1354, ../sass/electric-forest.scss */
+.player-main a {
+  float: left;
+}
+
+/* line 1358, ../sass/electric-forest.scss */
+.player {
+  z-index: 8;
+  top: 0;
+  display: none;
+  position: fixed;
+  top: -80px;
+  right: 40px;
+}
+
+/* line 1368, ../sass/electric-forest.scss */
+#btn-play:hover, #btn-stop:hover {
+  text-decoration: none;
+}
+
+/* line 1372, ../sass/electric-forest.scss */
+#btn-play, #btn-stop, #audio-message {
+  display: none;
+}
+
+/* line 1376, ../sass/electric-forest.scss */
+.video1, #play-video1, .video2, #play-video2, .video3, #play-video3, .video4, #play-video4 {
+  display: none;
+}
+
+/* line 1380, ../sass/electric-forest.scss */
+.buttonBar {
+  display: none;
+}
+
+/* line 1388, ../sass/electric-forest.scss */
+#section1Video, #section3Video, #section5Video {
+  height: 1100px;
+  width: 100%;
+  position: relative;
+}
+
+/* line 1394, ../sass/electric-forest.scss */
+.mobilevideo {
+  display: none;
+}
+
+/*POSTERS*/
+/* line 1401, ../sass/electric-forest.scss */
+.poster {
+  max-width: 300px;
+  margin: 10px auto;
+  float: left;
+}
+
+/* line 1407, ../sass/electric-forest.scss */
+#posterList {
+  margin: 40px auto;
+}
+
+/*EMAIL AND SHARE END*/
+/* line 1414, ../sass/electric-forest.scss */
+.email-share-end {
+  /*END OF ISSUE*/
+  max-width: 960px;
+  margin: 3em auto 2em auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  padding-bottom: 1em;
+}
+
+/* line 1425, ../sass/electric-forest.scss */
+#end h3 {
+  margin-bottom: 1em;
+  text-align: center;
+  font-style: normal;
+  font-family: 'open sans', sans-serif;
+}
+
+/* line 1432, ../sass/electric-forest.scss */
+.email-share-end input {
+  width: 50% !important;
+  margin: 0 auto 10px auto !important;
+}
+
+/* line 1437, ../sass/electric-forest.scss */
+.email-share-end .addthis_toolbox {
+  margin-left: 90px;
+}
+
+/*CONTRIBUTORS*/
+/* line 1444, ../sass/electric-forest.scss */
+.contributors {
+  max-width: 960px;
+  background-color: rgba(0, 0, 0, 0.4);
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  font-family: 'open sans', sans-serif;
+}
+
+/* line 1454, ../sass/electric-forest.scss */
+.contributors .thumbnails {
+  opacity: 1;
+}
+
+/* line 1458, ../sass/electric-forest.scss */
+.contributor-role {
+  color: white;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* line 1464, ../sass/electric-forest.scss */
+.contributors ul {
+  margin-top: 0;
+}
+
+/* line 1469, ../sass/electric-forest.scss */
+.contributors ul li:nth-child(4) {
+  margin-left: 0;
+}
+
+/*MEDIA QUERIES*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* line 1483, ../sass/electric-forest.scss */
+  .navbar a.menu-btn {
+    color: #333;
+    margin-bottom: 10px;
+    margin-right: 20px;
+  }
+
+  /* line 1489, ../sass/electric-forest.scss */
+  .navbar a.menu-btn:visited {
+    color: #333;
+  }
+
+  /* line 1493, ../sass/electric-forest.scss */
+  .navbar a.menu-btn:hover {
+    color: #333;
+  }
+
+  /* line 1497, ../sass/electric-forest.scss */
+  .header-small img.logo {
+    width: 126px;
+    position: absolute;
+    top: 7px;
+    left: 10px;
+  }
+
+  /* line 1504, ../sass/electric-forest.scss */
+  .nav-collapse {
+    background-color: #000;
+  }
+
+  /* line 1508, ../sass/electric-forest.scss */
+  .nav-collapse li {
+    margin-bottom: 6px;
+    margin-top: 6px;
+  }
+
+  /* line 1513, ../sass/electric-forest.scss */
+  .nav-collapse li.span4 {
+    margin-bottom: -36px;
+  }
+
+  /* line 1517, ../sass/electric-forest.scss */
+  .nav-collapse li a {
+    float: left;
+    padding-left: 10px;
+  }
+
+  /* line 1524, ../sass/electric-forest.scss */
+  #loader .loader-content {
+    padding-top: 40px;
+  }
+
+  /*CONTENT*/
+  /* line 1531, ../sass/electric-forest.scss */
+  .webvideo {
+    display: none;
+  }
+
+  /* line 1535, ../sass/electric-forest.scss */
+  .quote {
+    margin-top: 1em;
+    opacity: 1;
+  }
+
+  /* line 1540, ../sass/electric-forest.scss */
+  .thumbnails {
+    margin-top: 2em;
+    opacity: 1;
+  }
+
+  /* line 1545, ../sass/electric-forest.scss */
+  br {
+    display: none;
+  }
+
+  /* line 1549, ../sass/electric-forest.scss */
+  .mobilevideo {
+    display: block;
+  }
+
+  /* line 1553, ../sass/electric-forest.scss */
+  .mobilevideo iframe {
+    width: 100%;
+    height: 220px;
+  }
+
+  /* line 1558, ../sass/electric-forest.scss */
+  .row-fluid ul.two-columns {
+    margin: 3em auto 0 auto;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* line 1569, ../sass/electric-forest.scss */
+  .touch {
+    /*BACKGROUNDS*/
+    /*TYPOGRAPHY*/
+    /*CONTENT*/
+  }
+  /* line 1574, ../sass/electric-forest.scss */
+  .touch .header {
+    display: none !important;
+  }
+  /* line 1578, ../sass/electric-forest.scss */
+  .touch .header-small {
+    display: block;
+  }
+  /* line 1582, ../sass/electric-forest.scss */
+  .touch .nav-collapse {
+    background-color: #000;
+  }
+  /* line 1586, ../sass/electric-forest.scss */
+  .touch .navbar a.menu-btn {
+    color: #333;
+    margin-bottom: 10px;
+    margin-right: 20px;
+  }
+  /* line 1592, ../sass/electric-forest.scss */
+  .touch .nav-collapse p {
+    display: block;
+    margin-bottom: 0px;
+  }
+  /* line 1597, ../sass/electric-forest.scss */
+  .touch .nav-collapse li {
+    text-align: center;
+  }
+  /* line 1602, ../sass/electric-forest.scss */
+  .touch #side-nav a:hover {
+    color: #fff;
+  }
+  /* line 1609, ../sass/electric-forest.scss */
+  .touch #ef-cover {
+    background: rgba(0, 0, 0, 0) url(../../electric-forest/img/ef-cover.jpg) no-repeat;
+    background-size: cover;
+    padding-top: 90px;
+    height: 800px;
+    text-align: center;
+    background-attachment: scroll;
+    overflow: hidden;
+  }
+  /* line 1620, ../sass/electric-forest.scss */
+  .touch #section1-cover {
+    background: rgba(0, 0, 0, 0) url(../../electric-forest/img/section1-cover.jpg) no-repeat;
+    background-size: cover;
+    padding-top: 90px;
+    height: 800px;
+    text-align: center;
+    background-attachment: scroll;
+    overflow: hidden;
+    background-position: center center;
+  }
+  /* line 1631, ../sass/electric-forest.scss */
+  .touch #section2-cover {
+    background: rgba(0, 0, 0, 0) url(../../electric-forest/img/section2-cover.jpg) no-repeat;
+    background-size: cover;
+    padding-top: 90px;
+    height: 800px;
+    text-align: center;
+    background-attachment: scroll;
+    overflow: hidden;
+    margin-top: 4em;
+    background-position: top center;
+  }
+  /* line 1643, ../sass/electric-forest.scss */
+  .touch #section3-cover {
+    background: rgba(0, 0, 0, 0) url(../../electric-forest/img/section3-cover.jpg) no-repeat;
+    background-size: cover;
+    padding-top: 90px;
+    height: 800px;
+    text-align: center;
+    background-attachment: scroll;
+    overflow: hidden;
+    margin-top: 4em;
+    background-position: center center;
+  }
+  /* line 1655, ../sass/electric-forest.scss */
+  .touch #section4-cover {
+    background: rgba(0, 0, 0, 0) url(../../electric-forest/img/section4-cover.jpg) no-repeat;
+    background-size: cover;
+    padding-top: 90px;
+    height: 800px;
+    text-align: center;
+    background-attachment: scroll;
+    overflow: hidden;
+    margin-top: 4em;
+    background-position: top center;
+  }
+  /* line 1667, ../sass/electric-forest.scss */
+  .touch #section5-cover {
+    background: rgba(0, 0, 0, 0) url(../../electric-forest/img/section5-cover.jpg) no-repeat;
+    background-size: cover;
+    padding-top: 90px;
+    height: 800px;
+    text-align: center;
+    background-attachment: scroll;
+    overflow: hidden;
+    margin-top: 4em;
+  }
+  /* line 1678, ../sass/electric-forest.scss */
+  .touch #section6-cover {
+    background: rgba(0, 0, 0, 0) url(../../electric-forest/img/section6-cover.jpg) no-repeat;
+    background-size: cover;
+    padding-top: 90px;
+    height: 800px;
+    text-align: center;
+    background-attachment: scroll;
+    overflow: hidden;
+    margin-top: 4em;
+  }
+  /* line 1689, ../sass/electric-forest.scss */
+  .touch #end {
+    background: rgba(0, 0, 0, 0) url(../../static/img/record-bkg.jpg) no-repeat;
+    background-size: cover;
+    height: 1000px;
+    background-attachment: scroll;
+    overflow: hidden;
+    margin-top: 5em;
+    text-align: center;
+  }
+  /* line 1699, ../sass/electric-forest.scss */
+  .touch .featuring {
+    margin-top: 2em;
+  }
+  /* line 1706, ../sass/electric-forest.scss */
+  .touch h1.cover-title {
+    font-size: 4em;
+  }
+  /* line 1710, ../sass/electric-forest.scss */
+  .touch h1 {
+    font-size: 5em;
+    padding-top: 0;
+  }
+  /* line 1717, ../sass/electric-forest.scss */
+  .touch .fade-in-logo {
+    width: 80%;
+  }
+  /* line 1721, ../sass/electric-forest.scss */
+  .touch .webvideo {
+    display: none;
+  }
+  /* line 1725, ../sass/electric-forest.scss */
+  .touch .quote {
+    margin-top: 1em;
+    opacity: 1;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  /* line 1732, ../sass/electric-forest.scss */
+  .touch .thumbnails {
+    margin-top: 2em;
+    opacity: 1;
+  }
+  /* line 1737, ../sass/electric-forest.scss */
+  .touch br {
+    display: none;
+  }
+  /* line 1741, ../sass/electric-forest.scss */
+  .touch .mobilevideo {
+    display: block;
+  }
+  /* line 1745, ../sass/electric-forest.scss */
+  .touch .mobilevideo iframe {
+    width: 100%;
+    height: 760px;
+  }
+  /* line 1750, ../sass/electric-forest.scss */
+  .touch .contributors {
+    max-width: none;
+  }
+  /* line 1754, ../sass/electric-forest.scss */
+  .touch .contributors li:first-child {
+    margin-bottom: -10px;
+  }
+}
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+/*
+ * Image replacement
+ */
+/* line 1780, ../sass/electric-forest.scss */
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  /* IE 6/7 fallback */
+  *text-indent: -9999px;
+}
+
+/* line 1788, ../sass/electric-forest.scss */
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+/* line 1799, ../sass/electric-forest.scss */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+/* line 1808, ../sass/electric-forest.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+/* line 1825, ../sass/electric-forest.scss */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+/* line 1838, ../sass/electric-forest.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+/* line 1855, ../sass/electric-forest.scss */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 1860, ../sass/electric-forest.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+/* line 1869, ../sass/electric-forest.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   Theses examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+@media print, (-o-min-device-pixel-ratio: 5 / 4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+@media print {
+  /* line 1894, ../sass/electric-forest.scss */
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster: h5bp.com/s */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* line 1902, ../sass/electric-forest.scss */
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 1906, ../sass/electric-forest.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 1910, ../sass/electric-forest.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /*
+   * Don't show links for images, or javascript/internal links
+   */
+  /* line 1920, ../sass/electric-forest.scss */
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  /* line 1925, ../sass/electric-forest.scss */
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /* line 1930, ../sass/electric-forest.scss */
+  thead {
+    display: table-header-group;
+    /* h5bp.com/t */
+  }
+
+  /* line 1935, ../sass/electric-forest.scss */
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  /* line 1939, ../sass/electric-forest.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+}
+
+  /* line 1949, ../sass/electric-forest.scss */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 1955, ../sass/electric-forest.scss */
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
