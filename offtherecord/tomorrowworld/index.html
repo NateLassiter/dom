@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Off The Record</title>
+        <meta name="viewport" content="width=device-width">
+
+        <meta property="og:title" content="Off The Record - Reliving Forecastle" />
+        <meta property="og:type" content="website" />
+        <meta property="og:description" content="Off The Record tells the story of the Forecastle music festival using the most interesting videos, images, and articles from the fest." />
+        <meta property="og:url" content="http://offtherecordmagazine.com" /> 
+        <meta property="og:image" content="http://offtherecordmagazine.com/static/img/otrlogoFB.jpg"/>
+        <meta property="og:site_name" content="Off The Record" />
+        <meta property="fb:admins" content="520541301326020" />
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="/static/vendor/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/static/css/normalize.css">
+        <link href='http://fonts.googleapis.com/css?family=Playfair+Display:700,900,700italic,900italic|Droid+Serif:400,700,400italic|Open+Sans:400italic,400,700,800' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="/static/css/tomorrowworld.css">
+        <script src="/static/js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+
+    <body> 
+       
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+     
+        
+    <!-- FACEBOOK LIKE BUTTON -->
+
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+
+    <!-- LARGE HEADER -->
+        <div class="header">
+            <div class="nav">
+                <ul class="row-fluid">
+                    <li class="span2">
+                        <a href="#" role="button" data-toggle="modal" data-target="#about-modal">
+                            <img src="/static/img/about-icon.png">
+                            <p>ABOUT</p>
+                        </a>
+                    </li>
+                    <li class="span2">
+                        <a href="#" role="button" data-toggle="modal" data-target="#issues-modal">
+                            <img src="/static/img/issues-icon.png">
+                            <p>ISSUES</p>
+                        </a>
+                    </li>
+                    <li class="span4 logo">
+                        <img src="/static/img/logo-stacked.png">
+                        <p class="tagline">A Music Magazine</p>
+                    </li>
+                    <li class="span2">
+                        <a href="#" role="button" data-toggle="modal" data-target="#subscribe-modal">
+                            <img src="/static/img/subscribe-icon.png">
+                            <p>SUBSCRIBE</p>
+                        </a>
+                    </li>
+                    <li class="span2">
+                        <a href="#" role="button" data-toggle="modal" data-target="#share-modal">
+                            <img src="/static/img/share-icon2.png">
+                            <p>SHARE</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    
+    <!-- SMALL HEADER -->
+
+        <div class="header-small navbar">
+            <a class="btn btn-navbar menu-btn" data-toggle="collapse" data-target=".nav-collapse">
+            <span>Menu</span>
+            </a>
+
+             <img src="/static/img/logo-stacked.png" class="span12 logo">
+
+            <div class="nav-collapse collapse"> 
+                <ul class="row-fluid">
+                    <li class="span2">
+                        <a href="#" role="button" data-toggle="modal" data-target="#about-modal">
+                            <img src="/static/img/about-icon.png">
+                            <p>ABOUT</p>
+                        </a>
+                    </li>
+                    <li class="span2">
+                        <a href="#" role="button" data-toggle="modal" data-target="#issues-modal">
+                            <img src="/static/img/issues-icon.png">
+                            <p>ISSUES</p>
+                        </a>
+                    </li>
+                    <li class="span4">
+                        
+                    </li>
+                    <li class="span2">
+                        <a href="#" role="button" data-toggle="modal" data-target="#subscribe-modal">
+                            <img src="/static/img/subscribe-icon.png">
+                            <p>SUBSCRIBE</p>
+                        </a>
+                    </li>
+                    <li class="span2">
+                        <a href="#" role="button" data-toggle="modal" data-target="#share-modal">
+                            <img src="/static/img/share-icon2.png">
+                            <p>SHARE</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        
+    <!-- MODALS -->
+
+        <div id="about-modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+                <h3 id="myModalLabel">About Us</h3>
+            </div>
+            <div class="modal-body">
+                <p>Off The Record is a music magazine that tells the story of amazing artists and music festivals by curating the most interesting videos, images, and articles. Off The Record is made for music lovers, by music lovers.</p>
+                <h2>Contact</h2>
+                <p><a href="mailto:Nate@offtherecordmagazine.com" target="_blank">Email</a> us, we love feedback and are always looking to work with awesome people.</p>
+            </div>
+        </div>
+
+        <div id="issues-modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+                <h3 id="myModalLabel">Our Issues</h3>
+            </div>
+            <div class="modal-body">
+                <div class="row-fluid">
+                    <ul>
+                        <li class="span4">
+                            <a href="http://offtherecordmagazine.com/alabama-shakes">
+                                <img src="/alabama-shakes/img/cover.jpg" height="140" width="140">
+                                <p>Alabama Shakes</p>
+                            </a>
+                        </li>
+                        <li class="span4">
+                            <a href="http://offtherecordmagazine.com/forecastle">
+                                <img src="/forecastle/img/cover1.jpg" height="140" width="140">
+                                <p>Forecastle - Reliving Day 1</p>
+                            </a>
+                        </li>
+                        <li class="span4">
+                            <a href="http://offtherecordmagazine.com/forecastle-day2">
+                                <img src="/forecastle-day2/img/cover2.jpg" height="140" width="140">
+                                <p>Forecastle - Reliving Day 2</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class="row-fluid">
+                    <ul>
+                        <li class="span4">
+                            <a href="http://offtherecordmagazine.com/forecastle-day3">
+                                <img src="/forecastle-day3/img/cover3.jpg" height="140" width="140">
+                                <p>Forecastle - Reliving Day 3</p>
+                            </a>
+                        </li>
+                        <li class="span4">
+                            <a href="http://offtherecordmagazine.com/electric-forest">
+                                <img src="/electric-forest/img/ef-cover.jpg" height="140" width="140">
+                                <p>Electric Forest - Through Our Eyes</p>
+                            </a>
+                        </li>
+                        <li class="span4">
+                            <a href="http://offtherecordmagazine.com/tomorrowworld">
+                                <img src="/tomorrowworld/img/cover.jpg" height="140" width="140">
+                                <p>TomorrowWorld - Relive the Experience</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="row-fluid">
+                    <ul>
+                        <li class="span4">
+                            <a href="http://offtherecordmagazine.com/mountainoasis" >
+                                <img src="/mountainoasis/img/cover-thumb.jpg" height="140" width="140">
+                                <p>Mountain Oasis - Reliving the Experience</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div> 
+
+        <div id="subscribe-modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+                <h3 id="myModalLabel">Subscribe For More Awesomeness</h3>
+            </div>
+            <div class="modal-body">
+                <h2>Email</h2>
+                <!-- Begin MailChimp Signup Form -->
+
+                    <link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+                    <style type="text/css">
+                        #mc_embed_signup{clear:left; font:14px Helvetica,Arial,sans-serif; }
+                        /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+                           We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                    </style>
+                    <div id="mc_embed_signup">
+                    <form action="http://OffTheRecordMagazine.us5.list-manage.com/subscribe/post?u=db74b5bffacbb9e65b0be8614&amp;id=77266b0bc9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        
+                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="your email address" required>
+                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                    </form>
+                    </div>
+
+                <!--End mc_embed_signup-->
+
+                <h2>Social</h2>
+
+                <!-- FACEBOOK LIKE -->
+
+                <div class="fb-like" data-href="https://www.facebook.com/OffTheRecordMagazine" data-send="true" data-width="300" data-show-faces="true"></div>
+                <br>
+                <br>
+
+                <!-- TWITTER FOLLOW  -->
+
+                <a href="https://twitter.com/otr_magazine" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false">Follow @otr_magazine</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+            </div>
+        </div> 
+
+        <div id="share-modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+                <h3 id="myModalLabel">Spread The Love</h3>
+            </div>
+            <div class="modal-body">
+                <p>Any way you want to spread...</p>
+                <!-- AddThis Button BEGIN -->
+                <div class="addthis_toolbox addthis_default_style addthis_32x32_style" 
+                addthis:url="http://offtherecordmagazine.com"
+                addthis:title="The Electric Forest Experience"
+                addthis:description="Off The Record covers Electric Forest, the music, the people, and the experience.">
+                <a class="addthis_button_preferred_1"></a>
+                <a class="addthis_button_preferred_2"></a>
+                <a class="addthis_button_preferred_3"></a>
+                <a class="addthis_button_preferred_4"></a>
+                <a class="addthis_button_compact"></a>
+                <a class="addthis_counter addthis_bubble_style"></a>
+                </div>
+                <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+                <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-514a09b727da5536"></script>
+                
+                <!-- AddThis Button END -->
+
+            </div>
+        </div> 
+
+
+
+    <!-- TABLE OF CONTENTS / SIDE NAVIGATION -->
+
+
+        <div id="side-nav" class="navbar-side">
+            <ul class="nav">
+                <li>
+                    <a href="#cover" class="nav1"><span class="arrow-up"></span></a>
+                    <div id="details1" class="side-nav-details">
+                        <p>Back to top</p>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+
+
+
+    <!-- VIDEO PLAYERS -->
+
+
+        <div class="player-main video1">
+            <a id="play-video1" href="#"><img src="/static/img/play-btn2.png"></a>
+            <a id="stop-video1" href="#"><img src="/static/img/pause-btn2.png"></a>
+            <span id="name-video1" class="video-message"> Steve Aoki: TomorrowWorld 2013</span>
+            <span class="now-playing">now playing</span>
+        </div>
+
+
+            
+    <!-- COVER -->
+    
+        <div id="cover">
+
+            <div class="cover-content">
+
+                <img class="fade-in-logo issue-logo" height="322" width="415" src="/tomorrowworld/img/tomorrowworld_logo.png">
+                <div class="fade-in-featuring">
+                    <h1 class="cover-title">Relive The Experience</h1>
+                    <h2 class="cover-title">Yesterday is History, Today is a Gift, Tomorrow is Mystery</h2>
+                </div>
+
+                <div class="scroll">
+                    <a href="#section1-cover"><img src="/static/img/scrollArrow.png"></a>
+                </div>
+
+            </div>
+
+        </div>
+
+
+         <div class="nav-show">
+        </div>
+
+
+
+     <!-- VIDEO -->
+
+        <div class="webvideo">
+            <div id="section1Video" class="video" style="display:block; margin: auto; background: rgba(0,0,0,0.5)">
+            </div>
+        </div>
+
+        <div class="mobilevideo">
+            <iframe src="//www.youtube.com/embed/7OmhtIVr4WM" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+
+    <!-- SECTION 1 -->
+
+        <div class="quote lead-in-sentence-1">
+            <h2 class="lead-in-sentence">Arriving at TomorrowWorld, we see a 50-foot sign rising before us, with the words...</h2>
+        </div>
+
+
+        <div id="section1-cover">
+            <h1>“This Is Your Life. Make Every Second Legendary.”</h1>
+        </div> 
+
+
+        <div class="quote">
+            <h2>The sentiment pulsed throughout the weekend, reminding everyone it’s our job to make life legendary . . . through music, through people, through experiences.</h2>
+        </div>
+
+
+        <div class="quote">
+            <h2>Three days, eight electrifying stages, more than 230 DJs from around the world, and 140,000 pulsing fans of dance music.</h2>
+        </div>
+
+
+        <div class="quote">
+            <h2>Ten-foot rainbow colored mushrooms, food courts shaped like green lily pads, and wide-eyed fish spitting fire from a calm lake added to the experience, immersing us in the cosmos that is TomorrowWorld.</h2>
+        </div>
+
+
+
+    <!-- SECTION 2 -->
+
+
+        <div id="section2-cover">
+            <h1>Undoubtedly a legendary weekend.</h1>
+        </div> 
+
+
+        <div class="quote">
+            <h2>Day and night, energy rippled non-stop through the crowd.  Dancing skin to skin, swirling with eyes to the sky, sitting on shoulders with hands raised, bouncing foot to foot, fist pumping in sync with the pulse of the beat.</h2>
+        </div>
+
+
+        <img width="1896" height="2674" src="/static/img/blank.png" class="thumbnails" data-original="/tomorrowworld/img/fans.jpg">
+
+
+    <!-- SECTION 3 -->
+
+        <div class="quote">
+            <h2 class="lead-in-sentence">More than a song title or words on a t-shirt...</h2>
+        </div>
+
+        <div id="section3-cover">
+            <h1>Eat, Sleep, Rave, Repeat became the lifestyle of the weekend.  </h1>
+        </div> 
+
+
+         <div class="quote">
+            <h2>A surreal feeling washes over us watching everyone dressed in costumes, dancing with smiles as the sun sets yellow and orange in the sky. </h2>
+            <img width="960" height="640" src="/static/img/blank.png" data-original="/tomorrowworld/img/section3-1.jpg">
+        </div>
+
+
+        <div class="quote">
+            <h2>Dance music fans traveled from all over the world to Chattahoochee Hills, Georgia for TomorrowWorld. Over 50 nationalities attended, and for some it was their introduction to the U.S. All embraced one another as friends, high fiving, hugging, and dancing together.</h2>
+        </div>
+
+
+        <img width="1896" height="2674" src="/static/img/blank.png" class="thumbnails" data-original="/tomorrowworld/img/flags.jpg">
+
+
+    <!-- SECTION 4 -->
+
+
+        <div id="section4-cover">
+            <h1>8 massive stages, each a marvel in its own right. </h1>
+        </div> 
+
+
+        <div id="show-popup" class="quote">
+            <h2>Gigantic rotating LED screens, flame throwers, 20-foot high water fountains, firework platforms, smoke machines, lazers covering every color of the rainbow, candy land like decorations together creating the feel of the original TomorrowLand in Belgium. The main stage towered 400 feet, a masterpiece that appeared as if out of a fairy tale. </h2>
+        </div>
+
+
+        <img width="1630" height="2256" src="/static/img/blank.png" class="thumbnails" data-original="/tomorrowworld/img/stages.jpg">
+
+
+        <div class="quote">
+            <h2>The sound system's pulsing base vibrates through our bodies and ensures that everyone dances in sync with each other and the music.</h2>
+        </div>
+
+
+        <div class="quote">
+            <h2>Fans at the sprawling, tree filled festival crossed bridges over a large pond to reach the stages. Along the way excitement ran so high fans continuously high-fived each other as they passed.</h2>
+            <img width="960" height="640" src="/static/img/blank.png" data-original="/tomorrowworld/img/section4-1.jpg">
+        </div>
+
+
+
+    <!-- SECTION 5 -->
+
+
+        <div id="section5-cover">
+            <h1>TomorrowWorld truly showcased the breadth of Electronic Dance Music.</h1>
+        </div> 
+
+
+        <div class="quote">
+            <h2>From Deep House to Psychedelic Trance to Drum and Bass to Dirty Dubstep, all aspects of the genre were covered. Several DJs performed together to bring the crowd something never seen before. Afrojack and Steve Aoki teamed to create Afroki, and Steve Aoki, Laidback Luke, and Dimitri Vegas joined dressed as Superman, Batman, and Spiderman respectively.</h2>
+        </div>
+
+
+        <img width="1896" height="1769" src="/static/img/blank.png" class="thumbnails" data-original="/tomorrowworld/img/djs.jpg">
+
+
+
+    <!-- SECTION 6 -->
+
+
+        <div id="section6-cover">
+            <h1>“This Is Your Life. Make Every Second Legendary.”</h1>
+        </div> 
+
+        <div class="quote crew-pic">
+            <h2>We couldn’t agree more!!!</h2>
+            <img width="612" height="612" src="/static/img/blank.png" data-original="/tomorrowworld/img/crew.jpg">
+        </div>
+
+
+
+        <section class="links-to-more">
+            <h2>More TomorrowWorld...</h2>
+            <img width="275" height="123"src="/static/img/blank.png" data-original="/tomorrowworld/img/tomorrowworld_logo.png">
+            <a href="http://tomorrowworld.com" target="_blank">TomorrowWorld.com</a>
+            <a href="http://www.facebook.com/tomorrowworld" target="_blank">TomorrowWorld on Facebook</a>
+            <a href="http://http://www.youtube.com/user/TomorrowlandChannel" target="_blank">TomorrowWorld on YouTube</a>
+        </section>
+
+
+
+
+
+
+
+
+
+
+        <!-- END SECTION -->
+
+            <div id="end">
+
+                <img height="156" width="360" class="otrlogo" src="/static/img/logo-stacked-lg.png">
+                <p class="tagline">A Music Magazine</p>
+
+                <div class="email-share-end row-fluid"> 
+                    <div class="span6">
+                        <h3>Get our next issue</h3>
+
+                        <!-- Begin MailChimp Signup Form -->
+                        <link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+                        <style type="text/css">
+                            #mc_embed_signup{clear:left; font:14px Helvetica,Arial,sans-serif; }
+                            /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+                               We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                        </style>
+                        <div id="mc_embed_signup">
+                            <form action="http://OffTheRecordMagazine.us5.list-manage.com/subscribe/post?u=db74b5bffacbb9e65b0be8614&amp;id=77266b0bc9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                
+                                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="your email address" required>
+                                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!--End mc_embed_signup-->
+
+
+                    <div class="span6">
+                        <h3>Spread the Love</h3>
+
+                        <!-- AddThis Button BEGIN -->
+                        <div class="addthis_toolbox addthis_default_style addthis_32x32_style" addthis:url="http://OfftheRecordMagazine.com" addthis:title="Off the Record presents Electric Forest - The Fan Experience" addthis:description="Off the Record is a curated music magazine for people who love music and the artist that create it">
+                        <a class="addthis_button_preferred_1"></a>
+                        <a class="addthis_button_preferred_2"></a>
+                        <a class="addthis_button_preferred_3"></a>
+                        <a class="addthis_button_preferred_4"></a>
+                        <a class="addthis_button_compact"></a>
+                        <a class="addthis_counter addthis_bubble_style"></a>
+                        </div>
+                        <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+                        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-514a09b727da5536"></script>
+                        <!-- AddThis Button END -->
+                    </div>
+
+                </div>
+
+                
+            <!-- CONTRIBUTORS -->
+
+                <div class="contributors row-fluid">
+                    <h3>Contributors</h3>
+                    <ul class="thumbnails">
+                        <li class="span3"><img src="/static/img/blank.png" data-original="/tomorrowworld/img/nate.png"><span class="contributor-role">Rocking</span><a href="http://twitter.com/natelassiter" target="_blank">@NateLassiter</a></li>
+                        <li class="span3"><img src="/static/img/blank.png" data-original="/tomorrowworld/img/seth.png"><span class="contributor-role">Dancing</span><a href="https://twitter.com/susantrcka" target="_blank">@_sbradbury</a></li>
+                        <li class="span3"><img src="/static/img/blank.png" data-original="/tomorrowworld/img/carter.png"><span class="contributor-role">Yesing</span><a href="http://twitter.com/yourfriendbrett" target="_blank">@carterthomas</a></li>
+                        <li class="span3"><img src="/static/img/blank.png" data-original="/tomorrowworld/img/will.png"><span class="contributor-role">Tank Toping</span><a href="http://twitter.com/yourfriendbrett" target="_blank">@Guy</a></li>
+                        <li class="span3"><img src="/static/img/blank.png" data-original="/tomorrowworld/img/tom.png"><span class="contributor-role">Editing</span></li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+        <!-- SUBSCRIBE POP UP -->
+
+        <div id="subscribe-popup">
+            <div class="popup-header">
+                <h3>Get Our Next Issue</h3>
+                <a href="#" id="close-btn"><img src="/static/img/close-btn-grey.png" class="float-right"></a>
+            </div>
+            <div class="popup-body">
+                <div class="next-issue">
+                    <img src="/tomorrowworld/img/cover.jpg">
+                    <p>More TomorrowWorld</p>
+                </div>
+                <div class="signup row-fluid">
+                    <div class="span6">
+                        <p>Email</p>
+
+                        <!-- Begin MailChimp Signup Form -->
+
+                        <link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+                        <style type="text/css">
+                            #mc_embed_signup{clear:left; font:14px Helvetica,Arial,sans-serif; }
+                            /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+                               We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                        </style>
+                        <div id="mc_embed_signup">
+                        <form action="http://OffTheRecordMagazine.us5.list-manage.com/subscribe/post?u=db74b5bffacbb9e65b0be8614&amp;id=77266b0bc9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                            
+                            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="your email address" required>
+                            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                        </form>
+                        </div>
+
+                    <!--End mc_embed_signup-->
+
+                    </div>
+                    
+                    <div class="span6">
+                        <p>Social</p>
+
+                        <!-- FACEBOOK LIKE BTN -->
+
+                        <div class="fb-like" data-href="http://www.facebook.com/OffTheRecordMagazine" data-send="false" data-layout="button_count" data-width="130" data-show-faces="false"></div>
+
+
+                        <!-- TWITTER FOLLOW  -->
+
+                        <a href="https://twitter.com/otr_magazine" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false">Follow @otr_magazine</a>
+                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="/static/js/vendor/waypoints.js"></script>
+        <script src="/static/js/vendor/yepnope.1.5.4-min.js"></script>
+        <script src="/static/js/vendor/jquery.masonry.min.js"></script>
+        <script src="/static/js/vendor/jquery.queryloader2.js"></script>
+        <script src="/static/js/vendor/jquery.lazyload.min.js"></script>
+        <script src="/static/vendor/bootstrap/js/bootstrap.min.js"></script>
+        <script src="/tomorrowworld/js/master.js"></script>
+
+        <!-- Google Analytics-->
+        <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+           })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+           ga('create', 'UA-39489782-1', 'offtherecordmagazine.com');
+           ga('send', 'pageview');
+
+        </script>
+    </body>
+</html>
