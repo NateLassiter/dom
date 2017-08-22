@@ -1299,7 +1299,7 @@ h5 {
 /*BACKGROUND*/
 /* line 1205, ../sass/alabama-shakes.scss */
 #cover {
-  background: rgba(0, 0, 0, 0) url(/offtherecord/alabama-shakes/img/cover.jpg) no-repeat;
+  background: rgba(0, 0, 0, 0) url(/alabama-shakes/img/cover.jpg) no-repeat;
   background-size: cover;
   height: 1100px;
   text-align: center;
@@ -1309,7 +1309,7 @@ h5 {
 
 /* line 1214, ../sass/alabama-shakes.scss */
 #album {
-  background: rgba(0, 0, 0, 0) url(/offtherecord/alabama-shakes/img/albumCover.jpg) no-repeat;
+  background: rgba(0, 0, 0, 0) url(/alabama-shakes/img/albumCover.jpg) no-repeat;
   background-size: cover;
   height: 1100px;
   text-align: center;
@@ -1320,7 +1320,7 @@ h5 {
 
 /* line 1224, ../sass/alabama-shakes.scss */
 #live {
-  background: rgba(0, 0, 0, 0) url(/offtherecord/alabama-shakes/img/live.jpg) no-repeat;
+  background: rgba(0, 0, 0, 0) url(/alabama-shakes/img/live.jpg) no-repeat;
   background-size: cover;
   height: 1100px;
   text-align: center;
@@ -1330,7 +1330,7 @@ h5 {
 
 /* line 1233, ../sass/alabama-shakes.scss */
 #singer {
-  background: rgba(0, 0, 0, 0) url(/offtherecord/alabama-shakes/img/singer.jpg) no-repeat;
+  background: rgba(0, 0, 0, 0) url(/alabama-shakes/img/singer.jpg) no-repeat;
   background-size: cover;
   height: 1100px;
   text-align: center;
@@ -1340,7 +1340,7 @@ h5 {
 
 /* line 1242, ../sass/alabama-shakes.scss */
 #bio {
-  background: rgba(0, 0, 0, 0) url(/offtherecord/alabama-shakes/img/bio.jpg) no-repeat;
+  background: rgba(0, 0, 0, 0) url(/alabama-shakes/img/bio.jpg) no-repeat;
   background-size: cover;
   height: 1100px;
   text-align: center;
@@ -1350,7 +1350,7 @@ h5 {
 
 /* line 1251, ../sass/alabama-shakes.scss */
 #end {
-  background: rgba(0, 0, 0, 0) url(/offtherecord/alabama-shakes/img/record-bkg.jpg) no-repeat;
+  background: rgba(0, 0, 0, 0) url(/alabama-shakes/img/record-bkg.jpg) no-repeat;
   background-size: cover;
   height: 1240px;
   background-attachment: fixed;
@@ -1803,7 +1803,7 @@ span.now-playing {
   /*BACKGROUNDS*/
   /* line 1671, ../sass/alabama-shakes.scss */
   #cover {
-    background: rgba(0, 0, 0, 0) url(/offtherecord/alabama-shakes/img/cover.jpg) no-repeat;
+    background: rgba(0, 0, 0, 0) url(/alabama-shakes/img/cover.jpg) no-repeat;
     text-align: center;
     overflow: hidden;
     background-position: top center;
@@ -1840,7 +1840,7 @@ span.now-playing {
 
   /* line 1703, ../sass/alabama-shakes.scss */
   #end {
-    background: rgba(0, 0, 0, 0) url(/offtherecord/alabama-shakes/img/record-bkg.jpg) repeat 0px 0px;
+    background: rgba(0, 0, 0, 0) url(/alabama-shakes/img/record-bkg.jpg) repeat 0px 0px;
     background-size: cover;
     height: 1240px;
     background-attachment: fixed;
@@ -1945,7 +1945,7 @@ span.now-playing {
   }
   /* line 1809, ../sass/alabama-shakes.scss */
   .touch #cover {
-    background: rgba(0, 0, 0, 0) url(/offtherecord/alabama-shakes/img/cover.jpg) no-repeat;
+    background: rgba(0, 0, 0, 0) url(/alabama-shakes/img/cover.jpg) no-repeat;
     text-align: center;
     overflow: hidden;
     background-position: top center;
@@ -1953,7 +1953,7 @@ span.now-playing {
   }
   /* line 1817, ../sass/alabama-shakes.scss */
   .touch #album {
-    background: rgba(0, 0, 0, 0) url(/offtherecord/alabama-shakes/img/albumCover.jpg) no-repeat;
+    background: rgba(0, 0, 0, 0) url(/alabama-shakes/img/albumCover.jpg) no-repeat;
     text-align: center;
     overflow: hidden;
     height: 728px;
@@ -1962,7 +1962,7 @@ span.now-playing {
   }
   /* line 1826, ../sass/alabama-shakes.scss */
   .touch #live {
-    background: rgba(0, 0, 0, 0) url(/offtherecord/alabama-shakes/img/live.jpg) no-repeat;
+    background: rgba(0, 0, 0, 0) url(/alabama-shakes/img/live.jpg) no-repeat;
     text-align: center;
     overflow: hidden;
     height: 480px;
@@ -1971,7 +1971,7 @@ span.now-playing {
   }
   /* line 1835, ../sass/alabama-shakes.scss */
   .touch #singer {
-    background: rgba(0, 0, 0, 0) url(/offtherecord/alabama-shakes/img/singer.jpg) no-repeat;
+    background: rgba(0, 0, 0, 0) url(/alabama-shakes/img/singer.jpg) no-repeat;
     text-align: center;
     overflow: hidden;
     height: 728px;
@@ -1980,7 +1980,7 @@ span.now-playing {
   }
   /* line 1844, ../sass/alabama-shakes.scss */
   .touch #bio {
-    background: rgba(0, 0, 0, 0) url(/offtherecord/alabama-shakes/img/bio.jpg) no-repeat;
+    background: rgba(0, 0, 0, 0) url(/alabama-shakes/img/bio.jpg) no-repeat;
     text-align: center;
     overflow: hidden;
     height: 728px;

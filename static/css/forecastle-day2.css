@@ -1112,7 +1112,7 @@ h5 {
 /*BACKGROUND*/
 /* line 965, ../sass/forecastle-day2.scss */
 #cover {
-  background: rgba(0, 0, 0, 0) url(/offtherecord/forecastle-day2/img/cover2.jpg) no-repeat;
+  background: rgba(0, 0, 0, 0) url(/forecastle-day2/img/cover2.jpg) no-repeat;
   background-size: cover;
   padding-top: 180px;
   height: 1110px;
@@ -1142,7 +1142,7 @@ h5 {
 
 /* line 988, ../sass/forecastle-day2.scss */
 #section1-cover {
-  background: rgba(0, 0, 0, 0) url(/offtherecord/forecastle-day2/img/blackkeys-cover.jpg) no-repeat;
+  background: rgba(0, 0, 0, 0) url(/forecastle-day2/img/blackkeys-cover.jpg) no-repeat;
   background-size: cover;
   height: 600px;
   text-align: center;
@@ -1161,7 +1161,7 @@ h5 {
 
 /* line 1003, ../sass/forecastle-day2.scss */
 #section2-cover {
-  background: rgba(0, 0, 0, 0) url(/offtherecord/forecastle-day2/img/flaminglips-cover.jpg) no-repeat;
+  background: rgba(0, 0, 0, 0) url(/forecastle-day2/img/flaminglips-cover.jpg) no-repeat;
   background-size: cover;
   height: 600px;
   text-align: center;
@@ -1181,7 +1181,7 @@ h5 {
 
 /* line 1019, ../sass/forecastle-day2.scss */
 #section3-cover {
-  background: rgba(0, 0, 0, 0) url(/offtherecord/forecastle-day2/img/alabamashakes-cover.jpg) no-repeat;
+  background: rgba(0, 0, 0, 0) url(/forecastle-day2/img/alabamashakes-cover.jpg) no-repeat;
   background-size: cover;
   height: 600px;
   text-align: center;
@@ -1201,7 +1201,7 @@ h5 {
 
 /* line 1035, ../sass/forecastle-day2.scss */
 #section4-cover {
-  background: rgba(0, 0, 0, 0) url(/offtherecord/forecastle-day2/img/jimjames-cover.jpg) no-repeat;
+  background: rgba(0, 0, 0, 0) url(/forecastle-day2/img/jimjames-cover.jpg) no-repeat;
   background-size: cover;
   height: 600px;
   text-align: center;
@@ -1221,7 +1221,7 @@ h5 {
 
 /* line 1051, ../sass/forecastle-day2.scss */
 #section5-cover {
-  background: rgba(0, 0, 0, 0) url(/offtherecord/forecastle-day2/img/mattandkim-cover.jpg) no-repeat;
+  background: rgba(0, 0, 0, 0) url(/forecastle-day2/img/mattandkim-cover.jpg) no-repeat;
   background-size: cover;
   height: 600px;
   text-align: center;
@@ -1240,7 +1240,7 @@ h5 {
 
 /* line 1066, ../sass/forecastle-day2.scss */
 #section6-cover {
-  background: rgba(0, 0, 0, 0) url(/offtherecord/forecastle-day2/img/foxygen-cover.jpg) no-repeat;
+  background: rgba(0, 0, 0, 0) url(/forecastle-day2/img/foxygen-cover.jpg) no-repeat;
   background-size: cover;
   height: 600px;
   text-align: center;
@@ -1259,7 +1259,7 @@ h5 {
 
 /* line 1081, ../sass/forecastle-day2.scss */
 #section7-cover {
-  background: rgba(0, 0, 0, 0) url(/offtherecord/forecastle-day2/img/joyformidable-cover.jpg) no-repeat;
+  background: rgba(0, 0, 0, 0) url(/forecastle-day2/img/joyformidable-cover.jpg) no-repeat;
   background-size: cover;
   height: 600px;
   text-align: center;
@@ -1278,7 +1278,7 @@ h5 {
 
 /* line 1096, ../sass/forecastle-day2.scss */
 #section8-cover {
-  background: rgba(0, 0, 0, 0) url(/offtherecord/forecastle-day2/img/tokimonsta-cover.jpg) no-repeat;
+  background: rgba(0, 0, 0, 0) url(/forecastle-day2/img/tokimonsta-cover.jpg) no-repeat;
   background-size: cover;
   height: 600px;
   text-align: center;
@@ -1297,7 +1297,7 @@ h5 {
 
 /* line 1111, ../sass/forecastle-day2.scss */
 #section9-cover {
-  background: rgba(0, 0, 0, 0) url(/offtherecord/forecastle-day2/img/culture-bkg2.jpg) no-repeat;
+  background: rgba(0, 0, 0, 0) url(/forecastle-day2/img/culture-bkg2.jpg) no-repeat;
   background-size: cover;
   height: 600px;
   text-align: center;
@@ -1870,7 +1870,7 @@ span.now-playing {
   }
   /* line 1657, ../sass/forecastle-day2.scss */
   .touch #cover {
-    background: rgba(0, 0, 0, 0) url(/offtherecord/forecastle/img/cover1.jpg) no-repeat;
+    background: rgba(0, 0, 0, 0) url(../../forecastle/img/cover1.jpg) no-repeat;
     background-size: cover;
     padding-top: 90px;
     height: 966px;
@@ -1885,7 +1885,7 @@ span.now-playing {
   }
   /* line 1673, ../sass/forecastle-day2.scss */
   .touch #section1-cover {
-    background: rgba(0, 0, 0, 0) url(/offtherecord/forecastle/img/stringcheese-5.jpg) no-repeat;
+    background: rgba(0, 0, 0, 0) url(../../forecastle/img/stringcheese-5.jpg) no-repeat;
     background-size: cover;
     padding-top: 90px;
     height: 800px;
@@ -1896,7 +1896,7 @@ span.now-playing {
   }
   /* line 1684, ../sass/forecastle-day2.scss */
   .touch #section2-cover {
-    background: rgba(0, 0, 0, 0) url(/offtherecord/forecastle/img/youngthegiant-1.jpg) no-repeat;
+    background: rgba(0, 0, 0, 0) url(../../forecastle/img/youngthegiant-1.jpg) no-repeat;
     background-size: cover;
     padding-top: 90px;
     height: 800px;
@@ -1908,7 +1908,7 @@ span.now-playing {
   }
   /* line 1696, ../sass/forecastle-day2.scss */
   .touch #section3-cover {
-    background: rgba(0, 0, 0, 0) url(/offtherecord/forecastle/img/oldcrow-4.jpg) no-repeat;
+    background: rgba(0, 0, 0, 0) url(../../forecastle/img/oldcrow-4.jpg) no-repeat;
     background-size: cover;
     padding-top: 90px;
     height: 800px;
@@ -1920,7 +1920,7 @@ span.now-playing {
   }
   /* line 1708, ../sass/forecastle-day2.scss */
   .touch #section4-cover {
-    background: rgba(0, 0, 0, 0) url(/offtherecord/forecastle/img/bigboi-4.jpg) no-repeat;
+    background: rgba(0, 0, 0, 0) url(../../forecastle/img/bigboi-4.jpg) no-repeat;
     background-size: cover;
     padding-top: 90px;
     height: 800px;
@@ -1932,7 +1932,7 @@ span.now-playing {
   }
   /* line 1720, ../sass/forecastle-day2.scss */
   .touch #section5-cover {
-    background: rgba(0, 0, 0, 0) url(/offtherecord/forecastle/img/moontaxi-1.jpg) no-repeat;
+    background: rgba(0, 0, 0, 0) url(../../forecastle/img/moontaxi-1.jpg) no-repeat;
     background-size: cover;
     padding-top: 90px;
     height: 800px;
@@ -1943,7 +1943,7 @@ span.now-playing {
   }
   /* line 1731, ../sass/forecastle-day2.scss */
   .touch #section6-cover {
-    background: rgba(0, 0, 0, 0) url(/offtherecord/forecastle/img/houndmouth-9.jpg) no-repeat;
+    background: rgba(0, 0, 0, 0) url(../../forecastle/img/houndmouth-9.jpg) no-repeat;
     background-size: cover;
     padding-top: 90px;
     height: 800px;
@@ -1954,7 +1954,7 @@ span.now-playing {
   }
   /* line 1742, ../sass/forecastle-day2.scss */
   .touch #section7-cover {
-    background: rgba(0, 0, 0, 0) url(/offtherecord/forecastle/img/griz-2.jpg) no-repeat;
+    background: rgba(0, 0, 0, 0) url(../../forecastle/img/griz-2.jpg) no-repeat;
     background-size: cover;
     padding-top: 90px;
     height: 800px;
@@ -1965,7 +1965,7 @@ span.now-playing {
   }
   /* line 1753, ../sass/forecastle-day2.scss */
   .touch #section8-cover {
-    background: rgba(0, 0, 0, 0) url(/offtherecord/forecastle/img/boyznoize-3.jpg) no-repeat;
+    background: rgba(0, 0, 0, 0) url(../../forecastle/img/boyznoize-3.jpg) no-repeat;
     background-size: cover;
     padding-top: 90px;
     height: 800px;
@@ -1976,7 +1976,7 @@ span.now-playing {
   }
   /* line 1764, ../sass/forecastle-day2.scss */
   .touch #section9-cover {
-    background: rgba(0, 0, 0, 0) url(/offtherecord/forecastle/img/culture-bkg.jpg) no-repeat;
+    background: rgba(0, 0, 0, 0) url(../../forecastle/img/culture-bkg.jpg) no-repeat;
     background-size: cover;
     padding-top: 90px;
     height: 800px;

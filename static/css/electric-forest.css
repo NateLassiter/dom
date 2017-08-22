@@ -1260,7 +1260,7 @@ h5 {
 
 /* line 1094, ../sass/electric-forest.scss */
 #end {
-  background: rgba(0, 0, 0, 0) url(/offtherecord/static/img/record-bkg.jpg) no-repeat;
+  background: rgba(0, 0, 0, 0) url(../../static/img/record-bkg.jpg) no-repeat;
   background-size: cover;
   height: 1240px;
   background-attachment: fixed;
@@ -1803,7 +1803,7 @@ span.now-playing {
   }
   /* line 1609, ../sass/electric-forest.scss */
   .touch #ef-cover {
-    background: rgba(0, 0, 0, 0) url(/offtherecord/electric-forest/img/ef-cover.jpg) no-repeat;
+    background: rgba(0, 0, 0, 0) url(../../electric-forest/img/ef-cover.jpg) no-repeat;
     background-size: cover;
     padding-top: 90px;
     height: 800px;
@@ -1813,7 +1813,7 @@ span.now-playing {
   }
   /* line 1620, ../sass/electric-forest.scss */
   .touch #section1-cover {
-    background: rgba(0, 0, 0, 0) url(/offtherecord/electric-forest/img/section1-cover.jpg) no-repeat;
+    background: rgba(0, 0, 0, 0) url(../../electric-forest/img/section1-cover.jpg) no-repeat;
     background-size: cover;
     padding-top: 90px;
     height: 800px;
@@ -1824,7 +1824,7 @@ span.now-playing {
   }
   /* line 1631, ../sass/electric-forest.scss */
   .touch #section2-cover {
-    background: rgba(0, 0, 0, 0) url(/offtherecord/electric-forest/img/section2-cover.jpg) no-repeat;
+    background: rgba(0, 0, 0, 0) url(../../electric-forest/img/section2-cover.jpg) no-repeat;
     background-size: cover;
     padding-top: 90px;
     height: 800px;
@@ -1836,7 +1836,7 @@ span.now-playing {
   }
   /* line 1643, ../sass/electric-forest.scss */
   .touch #section3-cover {
-    background: rgba(0, 0, 0, 0) url(/offtherecord/electric-forest/img/section3-cover.jpg) no-repeat;
+    background: rgba(0, 0, 0, 0) url(../../electric-forest/img/section3-cover.jpg) no-repeat;
     background-size: cover;
     padding-top: 90px;
     height: 800px;
@@ -1848,7 +1848,7 @@ span.now-playing {
   }
   /* line 1655, ../sass/electric-forest.scss */
   .touch #section4-cover {
-    background: rgba(0, 0, 0, 0) url(/offtherecord/electric-forest/img/section4-cover.jpg) no-repeat;
+    background: rgba(0, 0, 0, 0) url(../../electric-forest/img/section4-cover.jpg) no-repeat;
     background-size: cover;
     padding-top: 90px;
     height: 800px;
@@ -1860,7 +1860,7 @@ span.now-playing {
   }
   /* line 1667, ../sass/electric-forest.scss */
   .touch #section5-cover {
-    background: rgba(0, 0, 0, 0) url(/offtherecord/electric-forest/img/section5-cover.jpg) no-repeat;
+    background: rgba(0, 0, 0, 0) url(../../electric-forest/img/section5-cover.jpg) no-repeat;
     background-size: cover;
     padding-top: 90px;
     height: 800px;
@@ -1871,7 +1871,7 @@ span.now-playing {
   }
   /* line 1678, ../sass/electric-forest.scss */
   .touch #section6-cover {
-    background: rgba(0, 0, 0, 0) url(/offtherecord/electric-forest/img/section6-cover.jpg) no-repeat;
+    background: rgba(0, 0, 0, 0) url(../../electric-forest/img/section6-cover.jpg) no-repeat;
     background-size: cover;
     padding-top: 90px;
     height: 800px;
@@ -1882,7 +1882,7 @@ span.now-playing {
   }
   /* line 1689, ../sass/electric-forest.scss */
   .touch #end {
-    background: rgba(0, 0, 0, 0) url(/static/img/record-bkg.jpg) no-repeat;
+    background: rgba(0, 0, 0, 0) url(../../static/img/record-bkg.jpg) no-repeat;
     background-size: cover;
     height: 1000px;
     background-attachment: scroll;

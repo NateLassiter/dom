@@ -788,7 +788,7 @@ textarea {
 
 /* line 692, ../sass/tomorrowworld.scss */
 .arrow-up {
-  background-image: url(/tomorrowworld/img/arrow-up.png);
+  background-image: url(/offtherecord/tomorrowworld/img/arrow-up.png);
   display: block;
   height: 24px;
   width: 25px;
@@ -1880,7 +1880,7 @@ span.now-playing {
   }
   /* line 1668, ../sass/tomorrowworld.scss */
   .touch #cover {
-    background: rgba(0, 0, 0, 0) url(/offtherecord/tomorrowworld/img/cover.jpg) no-repeat;
+    background: rgba(0, 0, 0, 0) url(/tomorrowworld/img/cover.jpg) no-repeat;
     background-size: cover;
     padding-top: 90px;
     height: 966px;
@@ -1895,7 +1895,7 @@ span.now-playing {
   }
   /* line 1684, ../sass/tomorrowworld.scss */
   .touch #section1-cover {
-    background: rgba(0, 0, 0, 0) url(/offtherecord/tomorrowworld/img/section1-cover.jpg) no-repeat;
+    background: rgba(0, 0, 0, 0) url(/tomorrowworld/img/section1-cover.jpg) no-repeat;
     background-size: cover;
     padding-top: 90px;
     height: 800px;
@@ -1906,7 +1906,7 @@ span.now-playing {
   }
   /* line 1695, ../sass/tomorrowworld.scss */
   .touch #section2-cover {
-    background: rgba(0, 0, 0, 0) url(/offtherecord/tomorrowworld/img/section2-cover.jpg) no-repeat;
+    background: rgba(0, 0, 0, 0) url(/tomorrowworld/img/section2-cover.jpg) no-repeat;
     background-size: cover;
     padding-top: 90px;
     height: 800px;
@@ -1918,7 +1918,7 @@ span.now-playing {
   }
   /* line 1707, ../sass/tomorrowworld.scss */
   .touch #section3-cover {
-    background: rgba(0, 0, 0, 0) url(/offtherecord/tomorrowworld/img/section3-cover.jpg) no-repeat;
+    background: rgba(0, 0, 0, 0) url(/tomorrowworld/img/section3-cover.jpg) no-repeat;
     background-size: cover;
     padding-top: 90px;
     height: 800px;
@@ -1930,7 +1930,7 @@ span.now-playing {
   }
   /* line 1719, ../sass/tomorrowworld.scss */
   .touch #section4-cover {
-    background: rgba(0, 0, 0, 0) url(/offtherecord/tomorrowworld/img/section4-cover.jpg) no-repeat;
+    background: rgba(0, 0, 0, 0) url(/tomorrowworld/img/section4-cover.jpg) no-repeat;
     background-size: cover;
     padding-top: 90px;
     height: 800px;
@@ -1942,7 +1942,7 @@ span.now-playing {
   }
   /* line 1731, ../sass/tomorrowworld.scss */
   .touch #section5-cover {
-    background: rgba(0, 0, 0, 0) url(/offtherecord/tomorrowworld/img/section5-cover.jpg) no-repeat;
+    background: rgba(0, 0, 0, 0) url(/tomorrowworld/img/section5-cover.jpg) no-repeat;
     background-size: cover;
     padding-top: 90px;
     height: 800px;
@@ -1953,7 +1953,7 @@ span.now-playing {
   }
   /* line 1742, ../sass/tomorrowworld.scss */
   .touch #section6-cover {
-    background: rgba(0, 0, 0, 0) url(/offtherecord/tomorrowworld/img/section6-cover.jpg) no-repeat;
+    background: rgba(0, 0, 0, 0) url(/tomorrowworld/img/section6-cover.jpg) no-repeat;
     background-size: cover;
     padding-top: 90px;
     height: 800px;
