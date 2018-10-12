@@ -154,6 +154,8 @@
 			$video.attr('autoplay',options.autoplay);
 		}
 
+		$video.prop('muted', true)
+
 		// if fullscreen
 		if (options.fullscreen) {
 			$video.bind('canplay',function() {
