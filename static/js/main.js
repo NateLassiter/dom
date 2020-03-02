@@ -44,5 +44,5 @@ $('#vid-bkg').videoBG({
   poster:'static/img/bkg-header.jpg',
   scale:true,
   zIndex:0,
-  height: 640
+  height: 800
 });

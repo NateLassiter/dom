@@ -118,12 +118,6 @@ h1, h2, h3 {
   font-family: "Droid Serif", serif;
 }
 
-/* line 138, ../../sass/main.scss */
-header {
-  padding-top: 160px;
-  padding-bottom: 190px;
-}
-
 /* line 148, ../../sass/main.scss */
 .header-bkg {
   background: url(../img/bkg-header.jpg) no-repeat center center fixed;
@@ -135,7 +129,7 @@ header {
 
 /* line 156, ../../sass/main.scss */
 #vid-bkg {
-  height: 600px;
+  height: 690px;
 }
 
 /* line 160, ../../sass/main.scss */
@@ -145,9 +139,14 @@ header img {
   margin-right: auto;
 }
 
+div .videoBG_wrapper {
+  width: 100% !important;
+}
+
 /* line 166, ../../sass/main.scss */
 .logo {
   margin-bottom: 20px;
+  margin-top: 150px;
 }
 @media (max-width: 767px) {
   /* line 166, ../../sass/main.scss */
@@ -275,6 +274,7 @@ ul.work-group {
 /* line 262, ../../sass/main.scss */
 footer {
   margin-bottom: 40px;
+  position: relative;
 }
 
 /* line 266, ../../sass/main.scss */
